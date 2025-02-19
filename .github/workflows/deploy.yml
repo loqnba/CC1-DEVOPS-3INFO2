@@ -18,6 +18,7 @@ jobs:
 
       - name: Build project
         run: npm run build  
+        
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2
