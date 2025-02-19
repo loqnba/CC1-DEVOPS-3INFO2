@@ -10,14 +10,10 @@ Ce projet est destiné à valider les connaissances en DevOps des élèves de 3�
 4. Implémentez une github action pour déployer automatiquement le site sur un hebergement gratuit (Netlify)
 ## Statut du Projet
 
-![License](https://img.shields.io/github/license/loqnba/CC1-DEVOPS-3INFO2)
-![Version](https://img.shields.io/github/package-json/v/loqnba/CC1-DEVOPS-3INFO2)
-
-![Pull Requests](https://img.shields.io/github/issues-pr/loqnba/CC1-DEVOPS-3INFO2)
 
 ![Repo Size](https://img.shields.io/github/repo-size/loqnba/CC1-DEVOPS-3INFO2)
 ![Code Size](https://img.shields.io/github/languages/code-size/loqnba/CC1-DEVOPS-3INFO2)
-![Build](https://img.shields.io/travis/com/loqnba/CC1-DEVOPS-3INFO2)
+
 
 ## GitHub Actions
 
