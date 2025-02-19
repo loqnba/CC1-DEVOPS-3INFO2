@@ -3,7 +3,7 @@ name: Deploy to Netlify
 on:
   push:
     branches:
-      - main  # Déclenche le déploiement à chaque push sur main
+      - main
 
 jobs:
   deploy:
@@ -22,9 +22,6 @@ jobs:
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2
         with:
-          publish-dir: "./dist"  # Adapter selon le dossier de build (ex: build, out, etc.)
+          publish-dir: "./dist"  # Adapter selon le dossier de build
           production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Auto-deploy via GitHub Actions"
-          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
+          github-token: ${{ secrets.GITHUB_TOKE
