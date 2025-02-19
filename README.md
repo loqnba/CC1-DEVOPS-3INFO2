@@ -11,8 +11,11 @@ Ce projet est destiné à valider les connaissances en DevOps des élèves de 3�
 
 ## Test Results
 
-![CI Status](https://github.com/loqnba/CC1-DEVOPS-3INFO2/actions/workflows/ci.yml/badge.svg?branch=main)
-![Deploy Status](https://github.com/loqnba/CC1-DEVOPS-3INFO2/actions/workflows/deploy.yml/badge.svg.branch=main)
+
+
+![Tests Unitaires](https://github.com/loqnba/CC1-DEVOPS-3INFO2/actions/workflows/ci.yml/badge.svg?branch=main)
+![Déploiement Netlify](https://github.com/loqnba/CC1-DEVOPS-3INFO2/actions/workflows/deploy.yml/badge.svg?branch=main)
+
 
 ![License](https://img.shields.io/github/license/loqnba/CC1-DEVOPS-3INFO2)
 ![Version](https://img.shields.io/github/package-json/v/loqnba/CC1-DEVOPS-3INFO2)
