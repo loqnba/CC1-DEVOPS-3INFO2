@@ -14,14 +14,17 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install dependencies
-        run: npm install  # ou autre gestionnaire de packages
+        run: npm install  
 
       - name: Build project
-        run: npm run build  # Adapter selon le projet
+        run: npm run build  
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2
         with:
-          publish-dir: "./dist"  # Adapter selon le dossier de build
+          publish-dir: "./dist"  
           production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKE
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Auto-deploy via GitHub Actions"
+          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
